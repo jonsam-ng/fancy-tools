@@ -1,0 +1,11 @@
+{
+  "screenOnly": "仅屏幕",
+  "Screen&Webcam": "屏幕和摄像头",
+  "autoRecord": "自动开始录制",
+  "shareScreen": "开始共享屏幕",
+  "startRecording": "开始录制",
+  "stopRecording": "结束录制",
+  "newRecording": "新录制",
+  "pauseRecording": "暂停录制",
+  "resumeRecording": "继续录制"
+}
