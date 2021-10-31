@@ -1,5 +1,5 @@
 {
-  "name": "media-recorder",
+  "name": "fancy-tools",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -8,10 +8,13 @@
   },
   "dependencies": {
     "@denysvuika/preact-translate": "^0.3.0",
+    "@popperjs/core": "^2.10.2",
     "history": "^5.0.1",
     "preact": "^10.5.13",
     "preact-async-route": "^2.2.1",
-    "preact-router": "^3.2.1"
+    "preact-helmet": "^4.0.0-alpha-3",
+    "preact-router": "^3.2.1",
+    "react-popper": "^2.2.5"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.0.0",

@@ -1,0 +1,25 @@
+{
+  "_Basic_locales_": "########",
+
+  "cancel": "取消",
+  "ok": "確定",
+
+  "_Recorder_locales_": "########",
+
+  "screenOnly": "僅熒幕",
+  "Screen&Webcam": "熒幕和攝像頭",
+  "microAudio": "麥克風",
+  "browserAudio": "係統",
+  "sysAudio+MicroAudio": "係統 + 麥克風",
+  "noAudio": "靜音",
+  "autoRecord": "自動開始錄製",
+  "shareScreen": "開始共享熒幕",
+  "startRecording": "開始錄製",
+  "stopRecording": "結束錄製",
+  "newRecording": "新錄製",
+  "pauseRecording": "暫停錄製",
+  "resumeRecording": "繼續錄製",
+  "pageTitle": "Fancy Recorder - 輕鬆在線錄製熒幕",
+  "downloadRecording": "下載錄製文件",
+  "recordingName": "錄製文件名稱"
+}

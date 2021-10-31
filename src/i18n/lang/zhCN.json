@@ -1,11 +1,25 @@
 {
+  "_Basic_locales_": "########",
+
+  "cancel": "取消",
+  "ok": "确定",
+
+  "_Recorder_locales_": "########",
+
   "screenOnly": "仅屏幕",
   "Screen&Webcam": "屏幕和摄像头",
+  "microAudio": "麦克风",
+  "browserAudio": "系统",
+  "sysAudio+MicroAudio": "系统 + 麦克风",
+  "noAudio": "静音",
   "autoRecord": "自动开始录制",
   "shareScreen": "开始共享屏幕",
   "startRecording": "开始录制",
   "stopRecording": "结束录制",
   "newRecording": "新录制",
   "pauseRecording": "暂停录制",
-  "resumeRecording": "继续录制"
+  "resumeRecording": "继续录制",
+  "pageTitle": "Fancy Recorder - 轻松在线录制屏幕",
+  "downloadRecording": "下载录制文件",
+  "recordingName": "录制文件名称"
 }

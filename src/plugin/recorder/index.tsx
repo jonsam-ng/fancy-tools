@@ -165,13 +165,12 @@ class FancyMediaRecorder {
     const hasChunks = !!this.chunks.length;
     this.logger(hasChunks, "no chunks yet, try record something", "error");
     if (!hasChunks) return false;
+    const fileType = getExtFromMime(this.constraints.recorder.mimeType);
     let aEle = document.createElement("a");
     aEle.href = this.createUrl();
-    aEle.download =
-      fileName ??
-      `${new Date().getTime()}.${getExtFromMime(
-        this.constraints.recorder.mimeType
-      )}`;
+    aEle.download = fileName
+      ? `${fileName}.${fileType}`
+      : `${new Date().getTime()}.${fileType}`;
     aEle.click();
     globalThis.URL.revokeObjectURL(aEle.href);
   }

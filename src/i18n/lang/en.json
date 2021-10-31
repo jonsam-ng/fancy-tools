@@ -1,8 +1,15 @@
 {
+  "_Basic_locales_": "########",
+
+  "cancel": "Cancel",
+  "ok": "Ok",
+
+  "_Recorder_locales_": "########",
+
   "screenOnly": "Screen Only",
   "Screen&Webcam": "Screen and Webcam",
   "microAudio": "Microphone Audio",
-  "browserAudio": "Browser Audio",
+  "browserAudio": "System Audio",
   "sysAudio+MicroAudio": "System Audio + Microphone Audio",
   "noAudio": "No Audio",
   "autoRecord": "Start Recording Automatically",
@@ -11,5 +18,8 @@
   "stopRecording": "Stop Recording",
   "newRecording": "New Recording",
   "pauseRecording": "Pause Recording",
-  "resumeRecording": "Resume Recording"
+  "resumeRecording": "Resume Recording",
+  "pageTitle": "Fancy Recorder - Screen Recorder online",
+  "downloadRecording": "Download Recording File",
+  "recordingName": "Recording File Name"
 }

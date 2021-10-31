@@ -2,7 +2,7 @@ import preact from "preact";
 import Router, { RouterProps } from "preact-router";
 import AsyncRoute from "preact-async-route";
 import { createHashHistory } from "history";
-import { HomePage, RecorderPage, RecordingPage } from "@/page";
+import { HomePage, RecorderPage } from "@/page";
 
 type AnyComponent<Props> =
   | preact.FunctionalComponent<Props>
@@ -26,10 +26,6 @@ const appRouters: RouterConfigProps[] = [
   {
     path: "/recorder",
     component: RecorderPage,
-  },
-  {
-    path: "/recorder/recording",
-    component: RecordingPage,
   },
 ];
 

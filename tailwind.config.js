@@ -4,10 +4,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "recorder-media": "url('@/asset/image/macbook.png')",
-        "recorder-download": "url('@/asset/image/download.png')",
-        "recorder-play": "url('@/asset/image/play.png')",
-        "recorder-pause": "url('@/asset/image/pause.png')",
+        media: "url('@/asset/image/macbook.png')",
+        download: "url('@/asset/image/download.png')",
+        play: "url('@/asset/image/play.png')",
+        pause: "url('@/asset/image/pause.png')",
+        language: "url('@/asset/image/language.png')",
+        github: "url('@/asset/image/github.png')",
+        website: "url('@/asset/image/website.png')",
       },
     },
   },

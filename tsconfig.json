@@ -8,6 +8,10 @@
     "esModuleInterop": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
+    "removeComments": true,
+    "jsxFactory": "h",
+    "sourceMap": true,
+    "declaration": true,
     "types": [
       "vite/client"
     ],
@@ -16,6 +20,14 @@
       "@/*": [
         "src/*",
       ],
-    }
+    },
   },
+  "exclude": [
+    "node_modules",
+    "src/**/*.__test__.ts"
+  ],
+  "include": [
+    "src/**/*",
+    "types/**/*.d.ts"
+  ]
 }
